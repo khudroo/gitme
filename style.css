@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.pad_big_tb{
+    padding: 100px 0;
+}
+.pad_small_tb{
+    padding: 60px 0;
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
+/* header_section */
+.header_section{
+    background: #34495e;
+}
+
+.header_area{
+   display: flex;
+   justify-content: space-between;
+  
+}
+.logo{
+    width: 30%;
+}
+.logo img {
+    width: 140px;
+    padding-top: 10px;
+}
+.nav_menu{
+    width: 70%;
+}
+.nav_menu ul{
+    
+}
+.nav_menu ul li{
+    display: inline-block;
+   
+}   
+.nav_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px 20px;
+    display: block;
+
+}
+.nav_menu ul li:hover{
+    background: #fff;  
+}
+.nav_menu ul li a:hover{
+    color: #34495e;
+}
+
+/* End header_section */
+
+/* decision_section */
+
+.decision_section{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(https://cdn.pixabay.com/photo/2016/03/09/09/22/meeting-1245776_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+
+.decision_section_area {
+    position: absolute;
+
+
+}
+
+
+.decision_section_area h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    width: 70%;
+    line-height: 1.5em;
+}
+
+.decision_section_area h2{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    width: 70%;
+    line-height: 1.5em;
+    margin-top: 35px;
+}
+
+.decision_section_area .btn{
+    outline: none;
+    border: none;
+    padding: 20px 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #FC427B;
+    cursor: pointer;
+}
+.decision_section_area .btn:hover{
+    background: #ff6b81;
+    color: #fff;
+}
+
+
+
+/* End decision_section */
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
